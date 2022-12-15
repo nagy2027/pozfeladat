@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="napelem.css">
+    <title>Napelemes rendszerek</title>
+</head>
+
+<body>
+    <div class="row" id="aaa">
+        <div class="col-md-6">
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <label for="pt">Paneltejesítmény [W]</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="number" id="pt" value="275">
+                    </div>
+                </div>
+                <div class="row rounded p-3 text-info">
+                    <div class="col-12 col-md-4">
+                        <label for="psz">Panelek száma [db]</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="range" min="2" max="32" value="8" step="2"
+                            id="psz">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <label for="ot">Összteljesítmény [W]</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="number" id="ot">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <label for="tf">Tetőfelület [m<sup>2</sup>]</label>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <input type="number" id="tf">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div id="jobb">
+                <h3>A kalkulátor használata</h3>
+			</div>
+        </div>
+    </div>
+</body>
+
+</html>
